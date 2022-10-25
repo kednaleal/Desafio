@@ -1,0 +1,53 @@
+body{
+    background-color: blueviolet;
+    font: 15px FreeMono, monospace;
+}
+.principal{
+    border: 1px solid #000;
+    background-color: #ffff;
+    color: blueviolet;
+    min-width: 60%;
+    padding: 20px;
+    padding-bottom: 100px;
+    
+    
+    
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+div{
+    text-align: center;
+    align-items: center;
+    width: 700px;    
+    margin-left: auto;  
+    margin-right: auto;
+    border-radius: 20px;
+   
+}
+.rs{
+   padding-right: 10px;
+   color:#000;
+}
+
+.radio{
+    display:flex;
+    justify-content: center;
+    gap: 10px;
+}
+div input{
+   border-radius: 4px;
+   margin: 12px;
+}
+
+footer b{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
